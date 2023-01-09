@@ -1,5 +1,7 @@
 # Aggregating Block level TXs and Fees
 
+*Warning:* use this script with a "local" node. This *should not be used* with a public-node (cos rate limits, spam, resource abuse etc).
+
 This is a simple exercise to measure the number of transactions and fees in RSK blocks. It is easy to view these metrics for any block using the [explorer](https://explorer.rsk.co/) on a browser or from a public RSK node from the terminal e.g.
 
 
