@@ -35,4 +35,4 @@ for i in range(0, 2):
 ```
 
 ## Data
-To avoid building things from scratch, a recent version of weekly data (last 5 years, until early January 2023) is availabe as `weekly.csv`
+To avoid building things from scratch, a recent version of weekly data (last 5 years, until early January 2023) is availabe as `weekly.csv`. A [PDF plot](weeklyPlot.pdf) of transactions and fees (from this dataset) is also included.
