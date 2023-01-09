@@ -9,7 +9,7 @@ curl   https://public-node.rsk.co   -X POST -H "Content-Type: application/json" 
 
 and then parsing the JSON in the response data.
 
-This is been partially automated using a script `src/readBlocks.js` to collect data from multiple calls.
+This is **partially automated** using a script `src/readBlocks.js` to collect data from multiple calls.
 
 Response data are appended to a file with the format. Each run of the script appends one row to a file `fees.csv`. If this file does not exist, create it with a header as follows.
 
@@ -33,3 +33,6 @@ import subprocess as sp
 for i in range(0, 2):
     sp.call(["node", "readBlocks.js", str(i)])
 ```
+
+## Data
+To avoid building things from scratch, a recent version of weekly data (last 5 years, until early January 2023) is availabe as `weekly.csv`
